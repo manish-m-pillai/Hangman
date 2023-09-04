@@ -24,8 +24,9 @@ public class Hangman
             System.out.println("                                       HANGMAN");
             System.out.println(Design);
             System.out.println("Enter 1 for Country Name");
-            System.out.println("Enter 2 for Fruits Name");
-            System.out.println("Enter 3 for KPop Idols");
+            System.out.println("Enter 2 for Cities in India");
+            System.out.println("Enter 3 for Fruits Name");
+            System.out.println("Enter 4 for KPop Idols");
             System.out.println("Enter your Choice");
             choice=Integer.parseInt(in.readLine());
         }
@@ -40,8 +41,9 @@ public class Hangman
     switch(choice)
     {
         case 1:FileName="Data/Country.txt";t=1;break;
-        case 2:FileName="Data/Fruits Name.txt";t=1;break;
-        case 3:FileName="Data/KPop.txt";t=1;break;
+        case 2:FileName="Data/Cities in India.txt";t=1;break;
+        case 3:FileName="Data/Fruits Name.txt";t=1;break;
+        case 4:FileName="Data/KPop.txt";t=1;break;
         default:
         System.out.println();
         System.out.println("You have Entered Wrong Choice");
